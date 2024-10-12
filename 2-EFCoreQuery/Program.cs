@@ -203,31 +203,37 @@ class Program
                     group by e.last_name, e.first_name
                     order by count desc
          */
+        //Method Syntax
+        var calisanlar = context.Orders
+            .Include(o => o.Employee)
+            .Where(p => p.OrderDate.Value.Year == 1997)
+            .GroupBy(p => p.Employee.FirstName + " " + p.Employee.LastName)//Group by da belitilenler Keydir
+            .Select(p => new
+            {
+                Calisan = p.Key,
+                Adet = p.Count()
+            }).ToList();
+        foreach (var item in calisanlar)
+        {
+            Console.WriteLine(item.Calisan + " " + item.Adet);//Group by da belitilenler Keydir
 
-        //var calisanlar = context.Employees
-        //    .Include(p => p.Orders.Where(o => o.OrderDate.Value.Year == 1997))
-        //    .GroupBy(e=>e.FirstName+ " " + e.LastName)//Group by da belitilenler Keydir
-        //    .ToList();
-        //foreach (var item in calisanlar)
-        //{
-        //    Console.WriteLine(item.Key + " " + item.Count());//Group by da belitilenler Keydir
+        }
 
-        //}
         //Query Syntax
 
-        var calisanlar2 = from e in context.Employees
-                          join o in context.Orders on e.EmployeeId equals o.EmployeeId
-                          where o.OrderDate.Value.Year == 1997
-                          group e by e.FirstName + " " + e.LastName into g
-                          select new
-                          {
-                              Calisan = g.Key,
-                              Adet = g.Count()
-                          };
-        foreach (var item in calisanlar2)
-        {
-            Console.WriteLine(item.Calisan + " " + item.Adet);
-        }
+        //var calisanlar2 = from e in context.Employees
+        //                  join o in context.Orders on e.EmployeeId equals o.EmployeeId
+        //                  where o.OrderDate.Value.Year == 1997
+        //                  group e by e.FirstName + " " + e.LastName into g
+        //                  select new
+        //                  {
+        //                      Calisan = g.Key,
+        //                      Adet = g.Count()
+        //                  };
+        //foreach (var item in calisanlar2)
+        //{
+        //    Console.WriteLine(item.Calisan + " " + item.Adet);
+        //}
 
 
                           #endregion
