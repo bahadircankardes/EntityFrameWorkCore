@@ -1,4 +1,5 @@
 ﻿using _1_DbFirst.NpgsqlServerEntities;
+using Microsoft.EntityFrameworkCore;
 
 namespace _1_DbFirst;
 
@@ -26,6 +27,11 @@ class Program
 
     //Postgresql için terminale yazdıgım;
     /*dotnet ef dbcontext scaffold "User ID=postgres;Password=41264126;Host=127.0.0.1;Port=5432;Database=Northwind" Npgsql.EntityFrameworkCore.PostgreSQL -o NpgsqlServerEntities*/
+
+    //MySQl icin terminale yazdıgım
+    //dotnet ef dbcontext scaffold "Server=localhost;Database=sakila;Uid=root;Pwd=41264126;" Pomelo.EntityFrameworkCore.MySql -o MySqlSakila
+
+
     #endregion
     static void Main(string[] args)
     {

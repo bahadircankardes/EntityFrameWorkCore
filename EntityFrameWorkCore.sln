@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1706.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-DbFirst", "1-DbFirst\1-DbFirst.csproj", "{1C69CDCF-A3BB-4DB8-986F-DF29AA13ED91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-EFCoreQuery", "2-EFCoreQuery\2-EFCoreQuery.csproj", "{FE39BB7E-958F-496B-AD98-386FAB72A6A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1C69CDCF-A3BB-4DB8-986F-DF29AA13ED91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C69CDCF-A3BB-4DB8-986F-DF29AA13ED91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C69CDCF-A3BB-4DB8-986F-DF29AA13ED91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE39BB7E-958F-496B-AD98-386FAB72A6A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE39BB7E-958F-496B-AD98-386FAB72A6A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE39BB7E-958F-496B-AD98-386FAB72A6A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE39BB7E-958F-496B-AD98-386FAB72A6A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

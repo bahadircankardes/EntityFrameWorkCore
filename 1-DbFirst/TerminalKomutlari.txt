@@ -1,6 +1,6 @@
 ﻿*Postgresql için terminale yazdıgım;
 
-dotnet ef dbcontext scaffold "User ID=postgres;Password=41264126;Host=127.0.0.1;Port=5432;Database=Northwind" Npgsql.EntityFrameworkCore.PostgreSQL -o NpgsqlServerEntities*/
+dotnet ef dbcontext scaffold "User ID=postgres;Password=41264126;Host=127.0.0.1;Port=5432;Database=Northwind" Npgsql.EntityFrameworkCore.PostgreSQL -o NpgsqlNorthwind
 
 *MySQl icin terminale yazdıgım
 dotnet ef dbcontext scaffold "Server=localhost;Database=sakila;Uid=root;Pwd=41264126;" Pomelo.EntityFrameworkCore.MySql -o MySqlSakila
