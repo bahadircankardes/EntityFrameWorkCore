@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RdB7BOxcaxVrV6U2GxrqAjrV4QnIGwj/JohKG6r8ZVn+tbStv5HHc4eohkza7ifAVt5NZYrDDOOldhWGorGNJw==",
+  "dgSpecHash": "qJYSHwtneIY=",
   "success": true,
   "projectFilePath": "/Users/bahadircankardes/source/repos/Wissen2024/EntityFrameWorkCore/3-CodeFirst/3-CodeFirst.csproj",
   "expectedPackageFiles": [
@@ -21,8 +21,10 @@
     "/Users/bahadircankardes/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
     "/Users/bahadircankardes/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "/Users/bahadircankardes/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
+    "/Users/bahadircankardes/.nuget/packages/mysqlconnector/2.2.5/mysqlconnector.2.2.5.nupkg.sha512",
     "/Users/bahadircankardes/.nuget/packages/npgsql/7.0.7/npgsql.7.0.7.nupkg.sha512",
     "/Users/bahadircankardes/.nuget/packages/npgsql.entityframeworkcore.postgresql/7.0.18/npgsql.entityframeworkcore.postgresql.7.0.18.nupkg.sha512",
+    "/Users/bahadircankardes/.nuget/packages/pomelo.entityframeworkcore.mysql/7.0.0/pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512",
     "/Users/bahadircankardes/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
     "/Users/bahadircankardes/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
     "/Users/bahadircankardes/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512"

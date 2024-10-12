@@ -1,0 +1,12 @@
+﻿1- Yeni bir migration yapmak icin CLI komutu (siyah ekran)
+
+    dotnet ef migrations add <migration_adi>
+
+2- Database E gondermek icin
+    dotnet ef database update
+
+3- birden fazla context varsa
+   dotnet ef migrations add FirstMigration --context MySqlContext
+   dotnet ef database update --context MySqlContext
+
+
