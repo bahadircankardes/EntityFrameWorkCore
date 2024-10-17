@@ -1,5 +1,6 @@
 ﻿using _3_CodeFirst.Contexts;
 using _3_CodeFirst.Models;
+using _3_CodeFirst.Models.Concrete;
 
 namespace _3_CodeFirst;
 

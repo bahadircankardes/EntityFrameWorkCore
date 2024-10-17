@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-EFCoreQuery", "2-EFCoreQu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-CodeFirst", "3-CodeFirst\3-CodeFirst.csproj", "{176F1860-B90A-4D56-9DA3-08B84674CB1D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-ManyToMany", "4-ManyToMany\4-ManyToMany.csproj", "{FA03DE6C-0AC8-43F5-8E75-591F1F8714F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{176F1860-B90A-4D56-9DA3-08B84674CB1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{176F1860-B90A-4D56-9DA3-08B84674CB1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{176F1860-B90A-4D56-9DA3-08B84674CB1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA03DE6C-0AC8-43F5-8E75-591F1F8714F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA03DE6C-0AC8-43F5-8E75-591F1F8714F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA03DE6C-0AC8-43F5-8E75-591F1F8714F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA03DE6C-0AC8-43F5-8E75-591F1F8714F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

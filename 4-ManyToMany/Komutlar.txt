@@ -1,0 +1,12 @@
+﻿MySql için;
+
+dotnet ef migrations add initDb --context MySqlContext
+
+dotnet ef database update --context MySqlContext
+
+
+NpgSql için;
+
+dotnet ef migrations add initDb --context NpgSqlContext
+
+dotnet ef database update --context NpgSqlContext

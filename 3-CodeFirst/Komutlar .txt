@@ -10,3 +10,9 @@
    dotnet ef database update --context MySqlContext
 
 
+4- Database i silmek için
+
+    dotnet ef database drop --context MySqlContext
+
+5-  önbellek nedeniyle eski hatalar devam edebilir:
+    dotnet clear 

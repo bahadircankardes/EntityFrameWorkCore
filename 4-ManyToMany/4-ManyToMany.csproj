@@ -3,22 +3,22 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>
-    <RootNamespace>_3_CodeFirst</RootNamespace>
+    <RootNamespace>_4_ManyToMany</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Models\" />
     <None Remove="Contexts\" />
-    <None Remove="Models\Abstract\" />
-    <None Remove="Models\Concrete\" />
+    <None Remove="Entities\" />
+    <None Remove="Entities\Concrete\" />
+    <None Remove="Entities\Abstract\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
     <Folder Include="Contexts\" />
-    <Folder Include="Models\Abstract\" />
-    <Folder Include="Models\Concrete\" />
+    <Folder Include="Entities\" />
+    <Folder Include="Entities\Concrete\" />
+    <Folder Include="Entities\Abstract\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.20">
@@ -27,6 +27,5 @@
     </PackageReference>
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.18" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.20" />
   </ItemGroup>
 </Project>
