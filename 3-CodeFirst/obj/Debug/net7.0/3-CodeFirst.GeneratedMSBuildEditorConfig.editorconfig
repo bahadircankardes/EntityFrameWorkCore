@@ -9,5 +9,3 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = _3_CodeFirst
 build_property.ProjectDir = /Users/bahadircankardes/source/repos/Wissen2024/EntityFrameWorkCore/3-CodeFirst/
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
