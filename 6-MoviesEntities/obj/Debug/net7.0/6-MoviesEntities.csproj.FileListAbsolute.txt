@@ -29,9 +29,10 @@
 /Users/bahadircankardes/source/repos/Wissen2024/EntityFrameWorkCore/6-MoviesEntities/obj/Debug/net7.0/6-MoviesEntities.AssemblyInfoInputs.cache
 /Users/bahadircankardes/source/repos/Wissen2024/EntityFrameWorkCore/6-MoviesEntities/obj/Debug/net7.0/6-MoviesEntities.AssemblyInfo.cs
 /Users/bahadircankardes/source/repos/Wissen2024/EntityFrameWorkCore/6-MoviesEntities/obj/Debug/net7.0/6-MoviesEntities.csproj.CoreCompileInputs.cache
-/Users/bahadircankardes/source/repos/Wissen2024/EntityFrameWorkCore/6-MoviesEntities/obj/Debug/net7.0/6-MoviesEntities.csproj.CopyComplete
 /Users/bahadircankardes/source/repos/Wissen2024/EntityFrameWorkCore/6-MoviesEntities/obj/Debug/net7.0/6-MoviesEntities.dll
 /Users/bahadircankardes/source/repos/Wissen2024/EntityFrameWorkCore/6-MoviesEntities/obj/Debug/net7.0/refint/6-MoviesEntities.dll
 /Users/bahadircankardes/source/repos/Wissen2024/EntityFrameWorkCore/6-MoviesEntities/obj/Debug/net7.0/6-MoviesEntities.pdb
 /Users/bahadircankardes/source/repos/Wissen2024/EntityFrameWorkCore/6-MoviesEntities/obj/Debug/net7.0/6-MoviesEntities.genruntimeconfig.cache
 /Users/bahadircankardes/source/repos/Wissen2024/EntityFrameWorkCore/6-MoviesEntities/obj/Debug/net7.0/ref/6-MoviesEntities.dll
+/Users/bahadircankardes/source/repos/Wissen2024/EntityFrameWorkCore/6-MoviesEntities/obj/Debug/net7.0/6-MoviesEntities.sourcelink.json
+/Users/bahadircankardes/source/repos/Wissen2024/EntityFrameWorkCore/6-MoviesEntities/obj/Debug/net7.0/6-Movies.B0CDF4F8.Up2Date

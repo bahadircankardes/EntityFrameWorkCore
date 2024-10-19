@@ -21,8 +21,12 @@ namespace _6_MoviesEntities.Contexts
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("User ID=postgres;Password=41264126;Host=127.0.0.1;Port=5432;Database=Movies");
+            optionsBuilder.UseMySql("server=localhost;database=MoviesEFCORE;uid=root;pwd=41264126", Microsoft.EntityFrameworkCore.ServerVersion.Parse("7.0.0-mysql"));
         }
+
+    
+
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -15,6 +15,11 @@ namespace _6_MoviesEntities.EntitiyConfig.Concrete
                 .HasForeignKey(p => p.SaloonId)
                 .OnDelete(Microsoft.EntityFrameworkCore.DeleteBehavior.Restrict);
 
+            builder.HasData(new Saloon { Id = 3, SalonName = "C Salonu", Kapasite = 50 });
+            builder.HasData(new Saloon { Id = 2, SalonName = "B Salonu", Kapasite = 150 });
+            builder.HasData(new Saloon { Id = 1, SalonName = "A Salonu", Kapasite = 50 });
+            builder.HasData(new Saloon { Id = 4, SalonName = "D Salonu", Kapasite = 50 });
+
             #region Restrict
             //Esas tablodan herhangi bir veri silinmeye çalışıldığında 
             //o veriye karşılık dependent table'da ilişkisel veri/ler varsa eğer 

@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>_7_Global_Query_Filters</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.20">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.18" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Entiities\" />
+    <None Remove="Entiities\Abstract\" />
+    <None Remove="Entiities\Concrete\" />
+    <None Remove="EntityConfig\" />
+    <None Remove="EntityConfig\Abstract\" />
+    <None Remove="EntityConfig\Concrete\" />
+    <None Remove="Context\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entiities\" />
+    <Folder Include="Entiities\Abstract\" />
+    <Folder Include="Entiities\Concrete\" />
+    <Folder Include="EntityConfig\" />
+    <Folder Include="EntityConfig\Abstract\" />
+    <Folder Include="EntityConfig\Concrete\" />
+    <Folder Include="Context\" />
+  </ItemGroup>
+</Project>

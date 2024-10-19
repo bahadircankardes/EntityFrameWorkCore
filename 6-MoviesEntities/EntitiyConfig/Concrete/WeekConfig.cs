@@ -17,7 +17,10 @@ namespace _6_MoviesEntities.EntitiyConfig.Concrete
                    .HasForeignKey(p => p.WeekId)
                    .OnDelete(Microsoft.EntityFrameworkCore.DeleteBehavior.Restrict);
 
-
+            builder.HasData(new Week {Id=1, WeekName="W32", CreateDate=DateTime.Now,StartDate= new DateOnly(2023,8,14), EndDate = new DateOnly(2025, 8, 14) },
+                            new Week { Id = 2, WeekName = "W33", CreateDate = DateTime.Now, StartDate = new DateOnly(2023, 8, 14), EndDate = new DateOnly(2025, 8, 14) },
+                            new Week { Id = 3, WeekName = "W34", CreateDate = DateTime.Now, StartDate = new DateOnly(2023, 8, 14), EndDate = new DateOnly(2025, 8, 14) }
+                           );
         }
 
     }

@@ -7,7 +7,7 @@ namespace _6_MoviesEntities.Entities.Concrete
 	{
 		public string WeekName { get; set; }
 
-		public DateOnly? StartName { get; set; }
+		public DateOnly? StartDate { get; set; }
 
         public DateOnly? EndDate { get; set; }
 
