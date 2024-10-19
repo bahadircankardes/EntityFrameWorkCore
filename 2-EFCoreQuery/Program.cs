@@ -236,11 +236,27 @@ class Program
         //}
 
 
-                          #endregion
+        #endregion
 
 
 
-                          #endregion
+        #endregion
+
+        #region Context uzerindeki database property uzerinden sorgu cekme.Dapper benzeri
+        //Calışmadı.
+
+        //FormattableString sql = $"Select ProductId, ProductName, UnitPrice, UnitsInStock, from products";
+        //var result = context.Database.SqlQuery<ProductListForPriceDTo>(sql);
+        //result.Where(p => p.UnitPrice > 50);
+        //foreach (var item in result.ToList())
+        //{
+        //    Console.WriteLine($"{item.ProductId}\t{item.ProductName}\t{item.UnitPrice}");
+        //}
+
+
+        #endregion
+
+
 
         Console.WriteLine("Hello, World!");
     }

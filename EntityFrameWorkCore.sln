@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-CodeFirst", "3-CodeFirst\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-ManyToMany", "4-ManyToMany\4-ManyToMany.csproj", "{FA03DE6C-0AC8-43F5-8E75-591F1F8714F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-MoviesEntities", "6-MoviesEntities\6-MoviesEntities.csproj", "{B3412A75-9ABA-4B3E-B444-0830CBC0F928}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{FA03DE6C-0AC8-43F5-8E75-591F1F8714F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA03DE6C-0AC8-43F5-8E75-591F1F8714F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA03DE6C-0AC8-43F5-8E75-591F1F8714F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3412A75-9ABA-4B3E-B444-0830CBC0F928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3412A75-9ABA-4B3E-B444-0830CBC0F928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3412A75-9ABA-4B3E-B444-0830CBC0F928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3412A75-9ABA-4B3E-B444-0830CBC0F928}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
