@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq.Expressions;
 using _9_GenericRepository.Abstract;
 using _9_GenericRepository.NpgsqlNorthwind;
 
@@ -38,11 +37,6 @@ namespace _9_GenericRepository.Concrete
         public List<T> GetAll()
         {
             return context.Set<T>().ToList();
-        }
-
-        public T? GetBy(Expression<Func<T, bool>> predicate)
-        {
-            throw new NotImplementedException();
         }
 
         public T GetById(short id)

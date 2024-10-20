@@ -16,6 +16,14 @@ class Program
         var kargo = new Shipper { CompanyName = "KanBen Kargo", Phone = "0090 546 78 97", ShipperId=33 };
         var sonuc = srepo.Insert(kargo);
         Console.WriteLine(sonuc);
+
+        #region Func<T,bool> delegate ihtiyaci 
+
+        //srepo.GetAll(p=>p.CompanyName =="qweasd LTD"); //Burada Func<Shipper,bool> => predicate delegate kullanilmasi lazim.
+        // Yani benim burada bir Func delegate geçebilecegim bir metod lazim
+        srepo.GetBy(p => p.CompanyName == "qweasd Ltd");
+
+        #endregion
     }
 }
 

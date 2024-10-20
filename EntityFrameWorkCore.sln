@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8-TablePerHierarchy", "8-Ta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9-GenericRepository", "9-GenericRepository\9-GenericRepository.csproj", "{1DCD7EB7-41F0-43C3-8726-7C568E2D7E81}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepository", "GenericRepository\GenericRepository.csproj", "{0DC95CAC-BE13-4542-9C64-4B5D2F599715}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-GenericLibKullanimi", "10-GenericLibKullanimi\10-GenericLibKullanimi.csproj", "{0C2722CA-E65E-4B11-AD03-368C4A34AB45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{1DCD7EB7-41F0-43C3-8726-7C568E2D7E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DCD7EB7-41F0-43C3-8726-7C568E2D7E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DCD7EB7-41F0-43C3-8726-7C568E2D7E81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DC95CAC-BE13-4542-9C64-4B5D2F599715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DC95CAC-BE13-4542-9C64-4B5D2F599715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DC95CAC-BE13-4542-9C64-4B5D2F599715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DC95CAC-BE13-4542-9C64-4B5D2F599715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C2722CA-E65E-4B11-AD03-368C4A34AB45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C2722CA-E65E-4B11-AD03-368C4A34AB45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C2722CA-E65E-4B11-AD03-368C4A34AB45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C2722CA-E65E-4B11-AD03-368C4A34AB45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

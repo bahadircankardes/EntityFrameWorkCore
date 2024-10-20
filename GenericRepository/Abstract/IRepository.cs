@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq.Expressions;
 
-namespace _9_GenericRepository.Abstract
+namespace GenericRepository.Abstract
 {
 	public interface IRepository<T> where T : class
 	{
@@ -19,9 +19,9 @@ namespace _9_GenericRepository.Abstract
 
 		T? GetById(string id);
 
-		T? GetBy(Expression<Func<T, bool>> predicate);
+        T? GetBy(Expression<Func<T, bool>> predicate);
 
-		List<T> GetAll();
+        List<T> ?GetAll(Expression<Func<T, bool>> predicate=null);
 
 
 
