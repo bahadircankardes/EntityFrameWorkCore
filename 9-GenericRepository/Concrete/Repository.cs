@@ -39,7 +39,7 @@ namespace _9_GenericRepository.Concrete
             return context.Set<T>().ToList();
         }
 
-        public T GetById(int id)
+        public T GetById(short id)
         {
             return context.Set<T>().Find(id);
         }

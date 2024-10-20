@@ -13,7 +13,7 @@ namespace _9_GenericRepository.Abstract
 
 		int Delete(string id);
 
-		T? GetById(int id);
+		T? GetById(short id);
 
 		T? GetById(string id);
 
