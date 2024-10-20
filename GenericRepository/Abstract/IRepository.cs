@@ -23,6 +23,8 @@ namespace GenericRepository.Abstract
 
         List<T> ?GetAll(Expression<Func<T, bool>> predicate=null);
 
+		IQueryable<T> GetAllInclude(Expression<Func<T, bool>> predicate = null, params Expression<Func<T, object>>[] include);
+
 
 
 	}

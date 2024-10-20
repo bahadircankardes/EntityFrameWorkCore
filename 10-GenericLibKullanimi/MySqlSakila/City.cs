@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using _10_GenericLibKullanimi.MySqlSakila;
 
 namespace __10_GenericLibKullanimi.MySqlSakila;
 

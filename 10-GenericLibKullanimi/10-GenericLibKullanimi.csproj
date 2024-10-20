@@ -22,9 +22,15 @@
   <ItemGroup>
     <None Remove="MySqlSakila\" />
     <None Remove="NpgsqlNorthwind\" />
+    <None Remove="Manager\" />
+    <None Remove="Manager\Abstract\" />
+    <None Remove="Manager\Concrete\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="MySqlSakila\" />
     <Folder Include="NpgsqlNorthwind\" />
+    <Folder Include="Manager\" />
+    <Folder Include="Manager\Abstract\" />
+    <Folder Include="Manager\Concrete\" />
   </ItemGroup>
 </Project>
